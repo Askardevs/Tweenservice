@@ -26,7 +26,7 @@ Just download file `tween-service.lua` and put it in your project directory. it 
 Create a new tweenservice using the method `new`, the method takes a table with the following properties: startValue, endValue, duration, easing Type. For example:
 
 ```lua
-    local TweenService = TweenService.new()
+local TweenService = TweenService.new()
 ```
 
 ## Instantiating
@@ -34,7 +34,7 @@ Create a new tweenservice using the method `new`, the method takes a table with 
 You can start it either outside **OnClientClick** or inside using the `new` method to instantiate it. For Example:
 
 ```lua
-    TweenService:setup(0, 500, 5000, 'InOutQuad')
+TweenService:setup(0, 500, 5000, 'InOutQuad')
 ```
 
 ## GetTweenValue
