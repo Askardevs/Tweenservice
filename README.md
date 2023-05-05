@@ -75,7 +75,7 @@ TweenService:addEventHandlers()
 
 ### Method onClientClick
 
-This is an example of how to use the library with onClientClick to set values on click and expand your way of using **TweenService**, first we will start by creating a function that we can use to check the clicked location on the screen and we will also add a table with the position of clicks. For Example:
+This is an example of how to use the library with `onClientClick` to set values on click and expand your way of using **TweenService**, first we will start by creating a function that we can use to check the clicked location on the screen and we will also add a table with the position of clicks. For Example:
 
 ```lua
 Animations = {
